@@ -19,4 +19,4 @@ venv/
 env/
 
 # Private sample data
-health_analysis/blood_work.txt
+2_health_analysis/blood_work.txt
