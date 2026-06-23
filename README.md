@@ -1,9 +1,11 @@
 # GenAI
 
-This repository contains two small GenAI learning projects:
+This repository contains four small GenAI learning projects:
 
 - `1_simple_llm_calling/`: a notebook that demonstrates a basic LLM call flow
 - `2_health_analysis/`: a blood report analysis project with a notebook and a Streamlit app
+- `3_vector_db/`: a notebook that introduces vector database basics
+- `4_rag_basics/`: a notebook and source document for retrieval-augmented generation basics
 
 ## Project Structure
 
@@ -15,6 +17,11 @@ This repository contains two small GenAI learning projects:
 |   |-- blood_work_analysis.ipynb
 |   `-- streamlit_app/
 |       `-- app.py
+|-- 3_vector_db/
+|   `-- vector_db_basics.ipynb
+|-- 4_rag_basics/
+|   |-- homo.pdf
+|   `-- rag.ipynb
 |-- main.py
 |-- pyproject.toml
 `-- uv.lock
@@ -81,6 +88,30 @@ The app:
 - extracts structured values from the report
 - classifies markers as `HIGH`, `LOW`, or `NORMAL`
 - generates a short health summary and Indian diet guidance
+
+### Vector DB Basics
+
+Open and run:
+
+```text
+3_vector_db/vector_db_basics.ipynb
+```
+
+This notebook introduces the core ideas behind vector embeddings, similarity search, and vector database workflows.
+
+### RAG Basics
+
+Open and run:
+
+```text
+4_rag_basics/rag.ipynb
+```
+
+This project uses the source document below while walking through retrieval-augmented generation basics:
+
+```text
+4_rag_basics/homo.pdf
+```
 
 ## Notes
 
