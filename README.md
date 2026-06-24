@@ -1,11 +1,12 @@
 # GenAI
 
-This repository contains four small GenAI learning projects:
+This repository contains five small GenAI learning projects:
 
 - `1_simple_llm_calling/`: a notebook that demonstrates a basic LLM call flow
 - `2_health_analysis/`: a blood report analysis project with a notebook and a Streamlit app
 - `3_vector_db/`: a notebook that introduces vector database basics
 - `4_rag_basics/`: a notebook and source document for retrieval-augmented generation basics
+- `5_simple_AI_agent/`: a notebook that explores a simple product query AI agent
 
 ## Project Structure
 
@@ -22,6 +23,8 @@ This repository contains four small GenAI learning projects:
 |-- 4_rag_basics/
 |   |-- homo.pdf
 |   `-- rag.ipynb
+|-- 5_simple_AI_agent/
+|   `-- Product_query_agent.ipynb
 |-- main.py
 |-- pyproject.toml
 `-- uv.lock
@@ -112,6 +115,16 @@ This project uses the source document below while walking through retrieval-augm
 ```text
 4_rag_basics/homo.pdf
 ```
+
+### Simple AI Agent
+
+Open and run:
+
+```text
+5_simple_AI_agent/Product_query_agent.ipynb
+```
+
+This notebook demonstrates a simple AI agent flow for handling product-related user queries.
 
 ## Notes
 
