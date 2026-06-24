@@ -1,12 +1,13 @@
 # GenAI
 
-This repository contains five small GenAI learning projects:
+This repository contains six small GenAI learning projects:
 
 - `1_simple_llm_calling/`: a notebook that demonstrates a basic LLM call flow
 - `2_health_analysis/`: a blood report analysis project with a notebook and a Streamlit app
 - `3_vector_db/`: a notebook that introduces vector database basics
 - `4_rag_basics/`: a notebook and source document for retrieval-augmented generation basics
 - `5_simple_AI_agent/`: a notebook that explores a simple product query AI agent
+- `6_MultiModal_Agent/`: a notebook that analyzes a blood report image and routes the result to a diet recommendation tool
 
 ## Project Structure
 
@@ -25,6 +26,9 @@ This repository contains five small GenAI learning projects:
 |   `-- rag.ipynb
 |-- 5_simple_AI_agent/
 |   `-- Product_query_agent.ipynb
+|-- 6_MultiModal_Agent/
+|   |-- blood_report.png
+|   `-- MultiModal_Agent.ipynb
 |-- main.py
 |-- pyproject.toml
 `-- uv.lock
@@ -34,6 +38,7 @@ This repository contains five small GenAI learning projects:
 
 - Python `3.13`
 - A Google AI API key for Gemini access
+- A Groq API key for the multimodal agent notebook
 
 ## Setup
 
@@ -125,6 +130,16 @@ Open and run:
 ```
 
 This notebook demonstrates a simple AI agent flow for handling product-related user queries.
+
+### Multimodal Agent
+
+Open and run:
+
+```text
+6_MultiModal_Agent/MultiModal_Agent.ipynb
+```
+
+This notebook loads a blood report image, extracts the reported values, and uses an agent tool to return a diet recommendation based on the detected condition.
 
 ## Notes
 
